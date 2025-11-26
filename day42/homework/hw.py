@@ -17,7 +17,7 @@ print(names)
 nums = [5, 1, 5, 2, 5, 3]
 print(nums.count(5))
 
-# 5) letters = ["a","b","a","c"] – დაითვალე რამდენი “a” არის.
+# 5) letters = ["a","b","a","c"] 
 letters = ["a", "b", "a", "c"]
 print(letters.count("a"))
 # 6) შექმენი names და იპოვე "saba"-ს ინდექსი
@@ -69,3 +69,86 @@ print(items)
 colors = ["red", "green", "blue"]
 colors.remove("green")
 print(colors)
+
+#17
+foods = ["bread", "milk"]
+
+if len(foods) >= 2:
+    foods.append("cheese")
+else:
+    foods.append("meat")
+
+print(foods)
+#18n
+nums = [10, 20, 30]
+
+number = int(input("შეიყვანე მთელი რიცხვი: "))
+
+if number in nums:
+    print("Already in list")
+else:
+    nums.append(40)
+    print(nums)
+#20
+values = [1, 2, 3, 4]
+
+index = int(input("შეიყვანე ინდექსი: "))
+
+if 0 <= index < len(values):
+    values.pop(index)
+else:
+    print("Index out of range")
+
+print(values)
+
+
+# 21) 
+pets = ["cat", "dog", "hamster"]
+
+
+pet_name = input("შეიყვანე შინაური ცხოველის სახელი: ")
+
+
+if pet_name in pets:
+    pets.remove(pet_name)
+    print("Removed")
+else:
+    print("Not found")
+
+
+print(pets)
+
+# 23) სია
+queue = ["first", "second"]
+
+
+new_item = input("შეიყვანე ახალი ელემენტი: ")
+
+
+queue.insert(0, new_item)
+
+
+if len(queue) > 5:
+    queue.pop()          
+    print(queue)
+else:
+    print(queue[-1])    
+
+
+
+
+    
+# 24) სია
+nums = [2, 4, 6]
+
+
+num = int(input("შეიყვანე რიცხვი: "))
+
+
+if num > 0:
+    nums.append(num)
+else:
+    print("Only positive allowed")
+
+
+print(nums)

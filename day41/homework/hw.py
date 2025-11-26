@@ -91,3 +91,11 @@ names.remove(user_choice)
 
 print(names)
 
+# 19) სია
+items = ["pen", "pencil", "book", "pencil"]
+
+
+items.remove("pencil")
+
+
+print(items)
