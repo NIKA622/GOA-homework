@@ -1,0 +1,154 @@
+
+<html> <!-- HTML დოკუმენტის დასაწყისი -->
+<head>
+    <title>UFC Register</title> <!-- ბრაუზერის ტაბზე გამოსაჩენი სათაური -->
+</head>
+<body> <!-- გვერდის ძირითადი ნაწილის დასაწყისი -->
+
+<style> /* CSS სტილების ბლოკი იწყება */
+
+    body { /* მთლიანი გვერდის სტილი */
+        margin: 0; /* გვერდის გარე დაშორების მოშლა */
+        font-family: Arial, sans-serif; /* შრიფტის არჩევა */
+        background-color: #2b2b2b; /* მუქი ფონი */
+        min-height: 100vh; /* ეკრანის სრული სიმაღლე */
+        display: flex; /* flex განლაგების გააქტიურება */
+        flex-direction: column; /* ელემენტები ვერტიკალურად */
+        color: white; /* ტექსტის ფერი */
+    }
+
+    .header { /* ზედა მენიუს სტილი */
+        background-color: #111; /* მუქი ფერი */
+        padding: 15px; /* შიდა დაშორება */
+        text-align: center; /* ცენტრში განლაგება */
+    }
+
+    .header a { /* header ლინკები */
+        color: white; /* ტექსტის ფერი */
+        text-decoration: none; /* ქვედა ხაზი გამორთული */
+        margin: 0 15px; /* დაშორება ლინკებს შორის */
+        font-size: 16px; /* ტექსტის ზომა */
+    }
+
+    .header a:hover { /* hover ეფექტი */
+        text-decoration: underline; /* ხაზის გაჩენა მაუსზე */
+    }
+
+   
+    .main { /* მთავარი კონტენტის wrapper */
+        flex: 1; /* იკავებს დარჩენილ სივრცეს */
+    }
+
+    
+    .title { /* გვერდის სათაური */
+        text-align: center; /* ცენტრში */
+        margin: 40px 0 25px; /* დაშორებები ზემოთ და ქვემოთ */
+        font-size: 32px; /* ტექსტის ზომა */
+    }
+
+   
+    .register-box { /* რეგისტრაციის ჩარჩო */
+        background-color: #3a3a3a; /* მუქი ფონი */
+        width: 360px; /* სიგანე */
+        margin: 0 auto; /* ეკრანის ცენტრში მოთავსება */
+        padding: 30px; /* შიდა დაშორება */
+        border-radius: 10px; /* კუთხეების მომრგვალება */
+        box-shadow: 0 0 10px rgba(0,0,0,0.6); /* ჩრდილი */
+    }
+
+    .register-box label { /* input–ების სათაურები */
+        display: block; /* ახალი ხაზი */
+        margin-bottom: 6px; /* ქვედა დაშორება */
+        font-size: 14px; /* ტექსტის ზომა */
+    }
+
+    .register-box input { /* ყველა input ველი */
+        width: 100%; /* სიგანე კონტეინერის 100% */
+        padding: 10px; /* შიდა დაშორება */
+        margin-bottom: 18px; /* ქვედა დაშორება */
+        border: none; /* ჩარჩოს მოშლა */
+        border-radius: 6px; /* ოდნავ მომრგვალებული კუთხეები */
+        outline: none; /* focus highlight-ის მოშლა */
+        font-size: 14px; /* ტექსტის ზომა */
+    }
+
+    .register-box input:focus { /* input focus ეფექტი */
+        box-shadow: 0 0 5px #d30000; /* წითელი ჩრდილი */
+    }
+
+    
+    .register-box button { /* რეგისტრაციის ღილაკი */
+        width: 100%; /* სრული სიგანე */
+        padding: 12px; /* შიდა დაშორება */
+        background-color: #d30000; /* წითელი ფონი */
+        color: white; /* ტექსტის ფერი */
+        border: none; /* ჩარჩო არ აქვს */
+        border-radius: 6px; /* მომრგვალებული კუთხეები */
+        font-size: 16px; /* ზომა */
+        cursor: pointer; /* მაუსის pointer */
+    }
+
+    .register-box button:hover { /* hover ეფექტი ღილაკზე */
+        background-color: #a80000; /* უფრო მუქი წითელი */
+    }
+
+   
+    .footer { /* ქვედა ნაწილი */
+        background-color: #111; /* მუქი ფონი */
+        color: white; /* თეთრი ტექსტი */
+        text-align: center; /* ცენტრში ტექსტი */
+        padding: 20px; /* შიდა დაშორება */
+        font-size: 15px; /* ტექსტის ზომა */
+    }
+
+</style> <!-- CSS ბლოკის დასასრული -->
+
+
+<div class="header"> <!-- საიტის მენიუ -->
+    <a href="index.html">Home</a> <!-- მთავარი გვერდის ლინკი -->
+    <a href="about.html">About UFC</a> <!-- About UFC გვერდი -->
+    <a href="fighters.html">Fighters</a> <!-- Fighters გვერდი -->
+    <a href="rankings.html">Rankings</a> <!-- Rankings გვერდი -->
+    <a href="contact.html">Contact</a> <!-- Contact გვერდი -->
+</div>
+
+
+<div class="main"> <!-- მთავარი კონტენტის wrapper -->
+
+    <div class="title"> <!-- Register სათაური -->
+        Register
+    </div>
+
+    
+    <div class="register-box"> <!-- რეგისტრაციის ჩარჩო -->
+        <form> <!-- ფორმა -->
+
+            <label>Full Name</label> <!-- სახელი label -->
+            <input type="text" placeholder="Enter your name"> <!-- სახელის შესაყვანი ველი -->
+
+            <label>Email</label> <!-- Email label -->
+            <input type="email" placeholder="Enter your email"> <!-- Email ველი -->
+
+            <label>Password</label> <!-- პაროლის label -->
+            <input type="password" placeholder="Enter your password"> <!-- password ველი -->
+
+            <label>Age</label> <!-- ასაკის label -->
+            <input type="number" placeholder="Enter your age"> <!-- ასაკის ველი -->
+
+            <label>Weight (kg)</label> <!-- წონის label -->
+            <input type="number" placeholder="Enter your weight"> <!-- წონის ველი -->
+
+            <button type="submit">Register</button> <!-- რეგისტრაციის ღილაკი -->
+
+        </form> <!-- ფორმის დასრულება -->
+    </div> <!-- register-box დასრულება -->
+
+</div> <!-- main დასრულება -->
+
+
+<div class="footer"> <!-- ქვედა ნაწილი -->
+    2025 UFC Project
+</div>
+
+</body> <!-- body დასრულება -->
+</html> <!-- HTML დასრულება -->

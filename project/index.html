@@ -1,0 +1,139 @@
+<html> <!-- HTML დოკუმენტის დასაწყისი -->
+<head>
+    
+    <title>Contact Page</title> <!-- გვერდის სათაური (ბრაუზერის ტაბზე რაც გამოჩნდება) -->
+</head>
+<body> <!-- გვერდის ძირითადი ნაწილი იწყება -->
+
+<style>  /* CSS სტილების დაწყება */
+
+                    body { /* მთელი გვერდის სტილი */
+                        margin: 0; /* გარე დაშორების მოხსნა */
+                        font-family: Arial, sans-serif; /* შრიფტის ტიპი */
+                        background-color: rgb(29, 29, 29);  /* ფონის ფერი */
+                        min-height: 100vh; /* ეკრანის სრული სიმაღლე */
+                        display: flex; /* მოქნილი განლაგება */
+                        flex-direction: column; /* ელემენტები ზემოდან ქვემოთ */
+                        color: white; /* ტექსტის ფერი */
+                    }
+
+                    
+                    .header { /* ზედა მენიუს სტილი */
+                        background-color: #111; /* ფონის მუქი ფერი */
+                        padding: 15px; /* შიდა დაშორება */
+                        text-align: center; /* ტექსტის ცენტრში გასწორება */
+                    }
+
+                    .header a { /* მენიუს ლინკების სტილი */
+                        color: white; /* ტექსტის ფერი */
+                        text-decoration: none; /* ქვედა ხაზის მოცილება */
+                        margin: 0 15px; /* დაშორება ლინკებს შორის */
+                        font-size: 16px; /* ტექსტის ზომა */
+                    }
+
+                    .header a:hover { /* მაუსის მიდების ეფექტი */
+                        text-decoration: underline; /* ქვედა ხაზის გამოჩენა */
+                    }
+
+                    
+                    .main { /* მთავარი კონტენტის ბლოკი */
+                        flex: 1; /* იკავებს დარჩენილ სივრცეს */
+                    }
+
+                    
+                    .title { /* გვერდის სათაურის სტილი */
+                        text-align: center; /* ცენტრში გასწორება */
+                        margin: 40px 0 20px; /* ზემოდან და ქვემოდან დაშორება */
+                        font-size: 32px; /* ტექსტის ზომა */
+                    }
+
+                    
+                    .contact-box { /* კონტაქტის ბლოკი */
+                        background-color: #3a3a3a; /* ფონის ფერი */
+                        width: 350px; /* სიგანე */
+                        margin: 0 auto; /* ცენტრში გასწორება */
+                        padding: 25px; /* შიდა დაშორება */
+                        border-radius: 8px; /* კუთხეების მომრგვალება */
+                        box-shadow: 0 0 8px rgba(0,0,0,0.6); /* ჩრდილი */
+                        font-size: 16px; /* ტექსტის ზომა */
+                    }
+
+            .contact-row { /* თითოეული კონტაქტის ხაზი */
+                margin-bottom: 15px; /* ქვედა დაშორება */
+                color: #e0e0e0; /* ტექსტის ფერი */
+            }
+
+            .contact-row strong { /* გამოკვეთილი სათაური */
+                display: block; /* ახალ ხაზზე გადატანა */
+                margin-bottom: 5px; /* ქვედა დაშორება */
+                color: white; /* თეთრი ფერი */
+            }
+
+            
+            .footer { /* ქვედა ნაწილი */
+                background-color: #111; /* ფონი */
+                color: white; /* ტექსტის ფერი */
+                text-align: center; /* ცენტრში გასწორება */
+                padding: 20px; /* შიდა დაშორება */
+                font-size: 15px; /* ტექსტის ზომა */
+            }
+
+        </style>
+        <!-- CSS სტილების დასრულება -->
+
+
+        <div class="header"> <!-- ზედა მენიუ -->
+            <a href="">Home</a> <!-- მთავარი გვერდის ლინკი -->
+            <a href="">About UFC</a> <!-- About გვერდის ლინკი -->
+            <a href="">Fighters</a> <!-- Fighters გვერდის ლინკი -->
+            <a href="">Rankings</a> <!-- Rankings გვერდის ლინკი -->
+            <a href="">Register</a> <!-- რეგისტრაციის გვერდის ლინკი -->
+        </div>
+
+
+        <div class="main"> <!-- მთავარი კონტენტის ნაწილი -->
+
+            
+            <div class="title"> <!-- გვერდის სათაური -->
+                Contact Page
+            </div>
+
+            
+            <div class="contact-box"> <!-- კონტაქტის მონაცემების ჩარჩო -->
+
+                <div class="contact-row"> <!-- Email-ის ბლოკი -->
+                    <strong>Email:</strong> <!-- გამოკვეთილი სათაური -->
+                    support@ufc.com <!-- ელფოსტა -->
+                </div>
+
+                <div class="contact-row"> <!-- ტელეფონის ბლოკი -->
+                    <strong>Phone:</strong>
+                    +1 702 123 4567
+                </div>
+
+                <div class="contact-row"> <!-- ინსტაგრამის ბლოკი -->
+                    <strong>Instagram:</strong>
+                    @ufc
+                </div>
+
+                <div class="contact-row"> <!-- ფეისბუქის ბლოკი -->
+                    <strong>Facebook:</strong>
+                    UFC Official
+                </div>
+
+                <div class="contact-row"> <!-- იუთუბის ბლოკი -->
+                    <strong>YouTube:</strong>
+                    UFC Channel
+                </div>
+
+            </div> <!-- contact-box-ის დასრულება -->
+
+        </div> <!-- main-ის დასრულება -->
+
+
+        <div class="footer"> <!-- ქვედა ნაწილი -->
+             2025 UFC Project
+        </div>
+
+        </body> <!-- გვერის ძირითადი ნაწილის დასრულება -->
+        </html> <!-- HTML დოკუმენტის დასრულება -->
