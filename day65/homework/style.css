@@ -1,0 +1,102 @@
+/* 1 */
+.p-blue {
+    color: blue;
+    font-size: 25px;
+    background-color: red;
+    border: 4px solid green;
+}
+
+.p-green {
+    color: green;
+    font-size: 45px;
+    text-align: center;
+    background-color: yellow;
+    border: 7px solid purple;
+}
+
+.p-orange {
+    color: orange;
+    font-size: 14px;
+    text-align: left;
+    background-color: blue;
+    border: 2px solid pink;
+}
+
+/* 2 */
+#box {
+    color: brown;
+    font-size: 30px;
+    background-color: lightgray;
+}
+
+/* 3 */
+#h1 { color: red; }
+#h2 { color: blue; }
+#h3 { color: green; }
+#h4 { color: purple; }
+#h5 { color: orange; }
+#h6 { color: pink; }
+
+/* 4 */
+.title {
+    color: navy;
+    text-align: center;
+}
+
+#p1 { color: red; }
+#p2 { color: blue; }
+#p3 { color: green; }
+#p4 { color: orange; }
+#p5 { color: purple; }
+
+/* 5 */
+#div1 {
+    background-color: lightblue;
+}
+
+#div2 {
+    background-color: lightpink;
+}
+
+/* 6 */
+.container {
+    text-align: center;
+}
+
+.text {
+    color: pink;
+    font-size: 30px;
+    background-color: blue;
+    border: 4px solid green;
+}
+
+/* 7 */
+.p1 {
+    color: red;
+    font-size: 20px;
+}
+
+.first {
+    background-color: yellow;
+    border: 3px solid black;
+}
+
+/* 8 */
+.para {
+    color: teal;
+}
+
+.big-box {
+    color: darkred;
+}
+
+/* 9 */
+.hobby1 {
+    color: blue;
+    font-size: 20px;
+}
+
+.hobby2 {
+    color: red;
+    font-size: 30px;
+}

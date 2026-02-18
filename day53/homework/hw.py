@@ -40,7 +40,7 @@ print(haag)
 
 #4) შექმენით სიტყვებით სავსე სია, თუ სიტყვის სიგრძე არის 6-ზე მეტი ან მისი ყველა ასო არის დიდი, ამ სიტყვის ყველა ასო გახადეთ პატარა და ჩაამატეთ ახალ სიაში. ყველა სხვა შემთხვევაში ახალ სიაში ჩაამატეთ შეუცვლელი სიტყვა ოღონდ გადაბმულად ორჯერ, მაგალითად თუ მოცემული იქნება სიტყვა "Nika", ჩაამატეთ "NikaNika". გამოიყენეთ while ციკლი.
 
-words=["sandro", "irakli", "nino", "vano", "salome", "ilia"]
+words=["sandro", "irakli", "nino", "gafrindi", "salome", "ilia"]
 newwords=[]
 
 i=0
@@ -80,3 +80,6 @@ while i<len(numbers):
         newnumbers.append(arr)
     i+=1
 print(newnumbers)
+
+
+

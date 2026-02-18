@@ -1,0 +1,34 @@
+#p1 {
+    color: red;
+}
+
+#p2 {
+    color: blue;
+    font-style: italic;
+}
+
+#p3 {
+    background-color: lightgray;
+}
+
+#p4 {
+    font-weight: bold;
+}
+
+#p5 {
+    text-decoration: underline;
+}
+
+#i1 {
+    color: green;
+}
+
+#i2 {
+    color: purple;
+    font-size: 18px;
+}
+
+#i3 {
+    color: orange;
+    font-style: italic;
+}

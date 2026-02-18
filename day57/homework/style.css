@@ -1,0 +1,75 @@
+/* Task 1 */
+div {
+    font-size: 38px;
+    color: blue;
+    background-color: green;
+    border: 3px solid red;
+}
+
+section {
+    font-size: 46px;
+    color: purple;
+    background-color: brown;
+    border: 7px solid yellow;
+}
+
+/* Task 2 */
+div ol {
+    font-size: 27px;
+    color: yellow;
+}
+
+div li {
+    background-color: pink;
+    border: 5px solid black;
+}
+
+section ol {
+    font-size: 36px;
+    color: green;
+}
+
+section li {
+    background-color: red;
+    border: 8px solid brown;
+}
+
+/* Task 3 */
+div h1,
+div h2,
+div p {
+    font-size: 57px;
+    color: yellow;
+    background-color: orange;
+    border: 5px solid green;
+}
+
+/* Task 4 */
+div table {
+    font-size: 15px;
+    color: blue;
+    background-color: green;
+    margin: auto;
+    border: 2px solid black;
+}
+
+section table {
+    font-size: 18px;
+    color: green;
+    background-color: red;
+    margin: auto;
+    border: 2px solid black;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
