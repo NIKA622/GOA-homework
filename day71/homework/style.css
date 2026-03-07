@@ -1,0 +1,93 @@
+/* 1 */
+
+#p1{font-weight:normal;}
+#p2{font-weight:bold;}
+#p3{font-weight:lighter;}
+#p4{font-weight:bolder;}
+#p5{font-weight:bold;}
+
+
+/* 2 */
+
+#h1{font-weight:100;}
+#h2{font-weight:200;}
+#h3{font-weight:300;}
+#h4{font-weight:400;}
+#h5{font-weight:500;}
+#h6{font-weight:600;}
+#h7{font-weight:700;}
+#h8{font-weight:800;}
+#h9{font-weight:900;}
+
+
+/* 3 */
+
+#html{
+font-weight:lighter;
+}
+
+#css{
+font-weight:bolder;
+}
+
+
+/* 4 */
+
+#names{
+font-weight:500;
+}
+
+#surnames{
+font-weight:bolder;
+}
+
+
+/* 5 */
+
+#table1{
+font-weight:900;
+color:rgb(0,255,0);
+
+
+font-size:24px;
+border:1px solid black;
+}
+
+
+/* 6 */
+
+#table2{
+font-weight:bold;
+color:rgb(255,105,180);
+font-size:30px;
+}
+
+#table2 td{
+background-color:blue;
+border:2px solid rgb(255,255,0);
+}
+
+
+/* 7 */
+
+#div1{
+color:red;
+background-color:yellow;
+text-align:center;
+font-size:20px;
+border:3px solid black;
+}
+
+#div2{
+color:purple;
+text-align:center;
+text-transform:uppercase;
+}
+
+.btn{
+background-color:green;
+color:white;
+border:2px solid black;
+font-size:18px;
+text-shadow:1px 1px 2px black;
+}

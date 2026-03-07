@@ -1,0 +1,44 @@
+
+p {
+    font-size: 20px;
+    text-align: center;
+
+    text-decoration-line: overline underline line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+
+
+.blue {
+    font-size: 28px;
+    text-align: center;
+
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+}
+
+
+*/
+.green{
+    font-size: 28px;
+    text-align: center;
+
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: green;
+}
+
+
+.lower {
+    text-transform: lowercase;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
