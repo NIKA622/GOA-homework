@@ -1,0 +1,8 @@
+body {
+    background-color: lightgray;
+}
+
+input {
+    border: 10px solid green;
+    padding: 10px;
+}

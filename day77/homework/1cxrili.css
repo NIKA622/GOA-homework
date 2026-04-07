@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+th {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    color: white;
+}
+
+.blue { background: #4a90e2; }
+.green { background: #4caf50; }
+.yellow { background: #fbc02d; }
+.red { background: #e53935; }
+.cyan { background: #4dd0e1; }

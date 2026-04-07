@@ -1,0 +1,12 @@
+.movies {
+    list-style-type: upper-roman;
+    color: red;
+    background-color: black;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.movies ul {
+    list-style-type: square;
+}

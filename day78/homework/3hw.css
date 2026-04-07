@@ -1,0 +1,35 @@
+body {
+    background: #111;
+}
+
+.box {
+    width: 220px;
+    background: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input:focus {
+    border: 2px solid green;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    background: green;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.95);
+}

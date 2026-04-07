@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+}
+
+.box {
+    border: 6px solid yellow;
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    padding-top: 900px;
+}
+
+button {
+    padding-bottom: 50px;
+    background-color: white;
+}

@@ -1,0 +1,11 @@
+.categories {
+    list-style-type: disc;
+    color: green;
+    background-color: pink;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.categories ol {
+    list-style-type: lower-alpha;
+}

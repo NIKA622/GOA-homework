@@ -1,0 +1,11 @@
+.daily {
+    list-style-type: decimal-leading-zero;
+    color: blue;
+    background-color: yellow;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.daily ul {
+    list-style-type: circle;
+}

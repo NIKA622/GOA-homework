@@ -1,0 +1,13 @@
+.countries {
+    list-style-type: upper-alpha;
+    color: purple;
+    background-color: lightblue;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.countries ul {
+    list-style-type: square;
+}
